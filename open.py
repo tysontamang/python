@@ -321,65 +321,66 @@ class Alphabets:
 					result_str=result_str+" "
 			result_str=result_str+"\n"
 		print(result_str, end= "");
+while True:
+	aa=str(input("enter your name : "))
+	for bb in aa:
+		c=Alphabets()
+		if (bb=="a"or bb=="A"):
+			c.a(bb)
+		elif(bb=="b"or bb=="B"):
+			c.b(bb)
+		elif(bb=="c"or bb=="C"):
+			c.c(bb)
+		elif(bb=="d"or bb=="D"):
+			c.d(bb)
+		elif(bb=="e"or bb=="E"):
+			c.e(bb)
+		elif(bb=="f"or bb=="F"):
+			c.f(bb)
+		elif(bb=="g"or bb=="G"):
+			c.g(bb)
+		elif(bb=="h"or bb=="H"):
+			c.h(bb)
+		elif(bb=="i"or bb=="I"):
+			c.i(bb)
+		elif(bb=="j"or bb=="J"):
+			c.j(bb)
+		elif(bb=="k"or bb=="K"):
+			c.k(bb)
+		elif(bb=="l"or bb=="L"):
+			c.l(bb)
+		elif(bb=="m"or bb=="M"):
+			c.m(bb)
+		elif(bb=="n"or bb=="N"):
+			c.n(bb)
+		elif(bb=="o"or bb=="O"):
+			c.o(bb)
+		elif(bb=="p"or bb=="P"):
+			c.p(bb)
+		elif(bb=="q"or bb=="Q"):
+			c.q(bb)
+		elif(bb=="r"or bb=="R"):
+			c.r(bb)
+		elif(bb=="s"or bb=="S"):
+			c.s(bb)
+		elif(bb=="t"or bb=="T"):
+			c.t(bb)
+		elif(bb=="u"or bb=="U"):
+			c.u(bb)
+		elif(bb=="v"or bb=="V"):
+			c.v(bb)
+		elif(bb=="w"or bb=="W"):
+			c.w(bb)
+		elif(bb=="x"or bb=="X"):
+			c.x(bb)
+		elif(bb=="y"or bb=="Y"):
+			c.y(bb)
+		elif(bb=="z"or bb=="Z"):
+			c.z(bb)
+		elif(bb==" "):
+			c.space(bb)	
+		elif(bb=="3"):
+			c.heart(bb)
+		else:
+			print("character not defined yet")
 
-aa=str(input("enter your name (only small letter): "))
-for bb in aa:
-	c=Alphabets()
-	if (bb=="a"):
-		c.a(bb)
-	elif(bb=="b"):
-		c.b(bb)
-	elif(bb=="c"):
-		c.c(bb)
-	elif(bb=="d"):
-		c.d(bb)
-	elif(bb=="e"):
-		c.e(bb)
-	elif(bb=="f"):
-		c.f(bb)
-	elif(bb=="g"):
-		c.g(bb)
-	elif(bb=="h"):
-		c.h(bb)
-	elif(bb=="i"):
-		c.i(bb)
-	elif(bb=="j"):
-		c.j(bb)
-	elif(bb=="k"):
-		c.k(bb)
-	elif(bb=="l"):
-		c.l(bb)
-	elif(bb=="m"):
-		c.m(bb)
-	elif(bb=="n"):
-		c.n(bb)
-	elif(bb=="o"):
-		c.o(bb)
-	elif(bb=="p"):
-		c.p(bb)
-	elif(bb=="q"):
-		c.q(bb)
-	elif(bb=="r"):
-		c.r(bb)
-	elif(bb=="s"):
-		c.s(bb)
-	elif(bb=="t"):
-		c.t(bb)
-	elif(bb=="u"):
-		c.u(bb)
-	elif(bb=="v"):
-		c.v(bb)
-	elif(bb=="w"):
-		c.w(bb)
-	elif(bb=="x"):
-		c.x(bb)
-	elif(bb=="y"):
-		c.y(bb)
-	elif(bb=="z"):
-		c.z(bb)
-	elif(bb==" "):
-		c.space(bb)	
-	elif(bb=="3"):
-		c.heart(bb)
-	else:
-		print("character not defined yet")
